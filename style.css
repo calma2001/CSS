@@ -1,0 +1,39 @@
+        body{
+           margin:0;
+       }
+       h1{
+           border-bottom:3px groove;
+            text-align:center;
+           padding:20px;
+           margin:0;
+       }
+       #bo ol{
+           border-right:3px groove;
+           width:100px;
+           margin:0px;
+           padding:20px;
+           padding-left:42px;
+
+       }       
+
+        #bo{
+           display:grid;
+           grid-template-columns: 150px 1fr;
+       }
+       #bo2{
+           padding-left:41px;
+       }
+
+        @media(max-width:400px){
+           #bo{
+               display:block;
+           }
+           h1{
+               border-style:hidden;
+           }
+           #bo ol{
+               border-style:hidden;
+           }
+        }
+       
+           
